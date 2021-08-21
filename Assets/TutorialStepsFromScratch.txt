@@ -1,0 +1,28 @@
+* - Lighting settings, why is my scene not the right color... 
+
+1 - Rename MainCamera to SimplePlayer add simple movement script from default project
+
+2 - Make movement script even simpler, explain no jumping or rigidbody
+
+3 - Create Ground 50x50 add material, needs collider
+
+4 - Reload scene from pressing 'R' code
+
+5 - Create simple canvas for simple crosshair, small square, rotated 45
+
+6 - Add cube group with rigidbodies to shoot 
+
+7 - Create simple gun with cubes, parent to an empty object to 'GunContainer', create point from which rays will shoot
+7 - Click on main cube to instantiate centered empty object 'GunEnd', place outside collider.... no colliders on gun parts
+
+8 - Show raycast shooting code, debug draw line, simplified
+
+9 - start grenade code by itself, drops by itself and explodes adds explosive force, check API rigidbody addforce methods
+
+
+------------------
+Resources + Scripts From:
+
+RayCast shooting scripts and video:
+https://learn.unity.com/tutorial/let-s-try-shooting-with-raycasts#5c7f8528edbc2a002053b468
+https://www.youtube.com/watch?v=AGd16aspnPA
